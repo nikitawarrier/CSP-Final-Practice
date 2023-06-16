@@ -1,2 +1,1 @@
-#CSP THING
-##crazy
+this is a crazy csp thing omg
