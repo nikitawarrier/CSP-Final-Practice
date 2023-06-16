@@ -1,0 +1,15 @@
+name = input("what's ur name?: ")
+age = int(input("how old are you?: "))
+age2 = int(input("how old is ur sibling?: "))
+
+if age > age2:
+    print("you are the older sibling!")
+    diff = age - age2
+    print("you are " + str(diff) + " years older than ur sibling")
+elif age < age2:
+    print("you are the younger sibling!")
+    diff = age2 - age
+    print("ur sibling is " + str(diff) + " years older than you")
+else:
+    print("you and your sibling are the same age!")
+    print("you are both " + str(age) + " years old")
